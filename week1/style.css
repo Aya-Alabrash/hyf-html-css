@@ -2,7 +2,7 @@
     width: 80%;
     margin: auto;
     box-shadow: 0 5px 8px 0 rgb(105, 83, 69);
-    
+
 }
 
 header {
@@ -49,7 +49,7 @@ section {
 }
 
 ul {
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
 li {
@@ -63,11 +63,11 @@ li {
 }
 
 .about-me {
-    margin-top: 40px;
-    padding: 15px;
+    margin-top: 30px;
+    padding: 18px;
     font-family: PT Sans Narrow;
     color: SADDLEBROWN;
-    font-size: 23px;
+    font-size: 21px;
 }
 
 .strong {
@@ -76,17 +76,18 @@ li {
 
 .social {
     text-align: center;
-    margin-top: 40px;
-    padding: 15px;
+    padding: 18px;
     font-family: PT Sans Narrow;
-    font-size: 25px;
+    font-size: 22px;
+    margin-top: -10px;
 }
 
 .h2-social {
     color: tomato;
-    font-size: 25;
+    font-size: 22;
     font-family: PT Sans Narrow;
     margin-left: -10px;
+    margin-bottom: 7px;
 }
 
 .detiles {
@@ -96,9 +97,10 @@ li {
 
 h2 {
     color: tomato;
-    font-size: 23;
+    font-size: 22;
     font-family: PT Sans Narrow;
     margin-left: 50px;
+    margin-bottom: -4px;
 }
 
 .skiles-list {
@@ -111,6 +113,7 @@ h2 {
     font-size: 20;
     font-family: PT Sans Narrow;
     color: SADDLEBROWN;
+    padding-right: 10px;
 }
 
 .fa {
@@ -144,13 +147,12 @@ h2 {
 
 .dropbtn {
     color: tomato;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     border: none;
     background-color: inherit;
-    padding: 16px;
+    padding: 14px;
     cursor: pointer;
-    display: inline-block;
     border-radius: 12px;
 }
 
@@ -163,27 +165,27 @@ h2 {
     position: relative;
     display: inline-block;
     margin-left: 100px;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 110px;
     z-index: 1;
 }
 
 .dropdown-content a {
     color: rgb(233, 86, 60);
-    padding: 12px 16px;
+    padding: 16px;
     text-decoration: none;
     font-weight: bold;
     display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1
+    background-color: #f1f1f1;
 }
 
 .dropdown:hover .dropdown-content {
