@@ -195,3 +195,7 @@ h2 {
 .dropdown:hover .dropbtn {
     background-color: tomato;
 }
+
+a{
+    text-decoration: none;
+}
