@@ -1,0 +1,358 @@
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~
+$ cd
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~
+$ pwd
+/c/Users/hP
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Dropbox/
+ Favorites/
+ IdeaProjects/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{72bc1652-96a8-11e6-a2ac-d85de2d7121c}.TxR.0.regtrans-ms
+ NTUSER.DAT{72bc1652-96a8-11e6-a2ac-d85de2d7121c}.TxR.1.regtrans-ms
+ NTUSER.DAT{72bc1652-96a8-11e6-a2ac-d85de2d7121c}.TxR.2.regtrans-ms
+ NTUSER.DAT{72bc1652-96a8-11e6-a2ac-d85de2d7121c}.TxR.blf
+ NTUSER.DAT{72bc1653-96a8-11e6-a2ac-d85de2d7121c}.TM.blf
+ NTUSER.DAT{72bc1653-96a8-11e6-a2ac-d85de2d7121c}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{72bc1653-96a8-11e6-a2ac-d85de2d7121c}.TMContainer00000000000000000002.regtrans-ms
+ NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TM.blf
+ NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Oracle/
+ Pictures/
+ PrintHood@
+ PycharmProjects/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Tracing/
+ Videos/
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~
+$ mkdir week2HM
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~
+$ pwd
+/c/Users/hP
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Dropbox/
+ Favorites/
+ IdeaProjects/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{72bc1652-96a8-11e6-a2ac-d85de2d7121c}.TxR.0.regtrans-ms
+ NTUSER.DAT{72bc1652-96a8-11e6-a2ac-d85de2d7121c}.TxR.1.regtrans-ms
+ NTUSER.DAT{72bc1652-96a8-11e6-a2ac-d85de2d7121c}.TxR.2.regtrans-ms
+ NTUSER.DAT{72bc1652-96a8-11e6-a2ac-d85de2d7121c}.TxR.blf
+ NTUSER.DAT{72bc1653-96a8-11e6-a2ac-d85de2d7121c}.TM.blf
+ NTUSER.DAT{72bc1653-96a8-11e6-a2ac-d85de2d7121c}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{72bc1653-96a8-11e6-a2ac-d85de2d7121c}.TMContainer00000000000000000002.regtrans-ms
+ NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TM.blf
+ NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{f5b13604-4b48-11e6-80cb-e41d2d012050}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Oracle/
+ Pictures/
+ PrintHood@
+ PycharmProjects/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Tracing/
+ Videos/
+ week2HM/
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~
+$ cd week2HM
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ pwd
+/c/Users/hP/week2HM
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ ls
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ touch blank
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ pwd
+/c/Users/hP/week2HM
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ ls
+blank
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ touch greeting.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ ls
+blank  greeting.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat greeting.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ echo "Hello
+> Hello
+> Hello
+> Hello
+> Hello" > greeting.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat greeting.txt
+Hello
+Hello
+Hello
+Hello
+Hello
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ pwd
+/c/Users/hP/week2HM
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ touch 1.txt | touch 2.txt | touch 3.txt | touch 4.txt | touch 5.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  greeting.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat greeting.txt > 1.txt |
+>
+>
+> ;
+bash: syntax error near unexpected token `;'
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat greeting.txt > 1.txt | cat greeting.txt > 2.txt | cat greeting.txt > 3.txt | cat greetin                                                                                                  g.txt > 4.txt | cat greeting.txt > 5.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat greeting.txt
+Hello
+Hello
+Hello
+Hello
+Hello
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat 1.txt
+Hello
+Hello
+Hello
+Hello
+Hello
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat 2.txt
+Hello
+Hello
+Hello
+Hello
+Hello
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat 3.txt
+Hello
+Hello
+Hello
+Hello
+Hello
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat 4.txt
+Hello
+Hello
+Hello
+Hello
+Hello
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat 5.txt
+Hello
+Hello
+Hello
+Hello
+Hello
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ pwd
+/c/Users/hP/week2HM
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ ls
+.1.txt  2.txt  3.txt  4.txt  5.txt  blank  greeting.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ touch pets.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  greeting.txt  pets.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ echo "cat" > pets.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat pets.txt
+cat
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ echo "dog" >> pets.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat pets.txt
+cat
+dog
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ echo "hamster" >> pets.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat pets.txt
+cat
+dog
+hamster
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ pwd
+/c/Users/hP/week2HM
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  greeting.txt  pets.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ touch commands.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  commands.txt  greeting.txt  pets.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ echo "cat" > commands.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat commands.txt
+cat
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ echo "ls" >> commands.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat commands.txt
+cat
+ls
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ echo "pwd" >> commands.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat commands.txt
+cat
+ls
+pwd
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ pwd
+/c/Users/hP/week2HM
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  commands.txt  greeting.txt  pets.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ touch lovelyCommands.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ ls
+1.txt  3.txt  5.txt  commands.txt  greeting.txt        pets.txt
+2.txt  4.txt  blank  file          lovelyCommands.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ grep -Fvxf pets.txt commands.txt > lovelyCommands.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat lovelyCommands
+cat: lovelyCommands: No such file or directory
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat lovelyCommands.txt
+ls
+pwd
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ grep -Fvxf commands.txt pets.txt >> lovelyCommands.txt
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat lovelyCommands.txt
+ls
+pwd
+dog
+hamster
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat commands.txt
+cat
+ls
+pwd
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$ cat pets.txt
+cat
+dog
+hamster
+
+Aya@DESKTOP-1BHQNV7 MINGW64 ~/week2HM
+$
