@@ -1,0 +1,209 @@
+h1 {
+    background: #b3042a;
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: Josefin Sans;
+    font-size: 70px;
+}
+
+
+section{
+    display: grid;
+}
+
+
+h2 {
+    position: relative;
+    margin: 5px;
+    color: #b3042a;
+    font-size: 40px;
+    font-family: Josefin Sans;
+}
+
+
+h3 {
+    color: black;
+    padding: 5px;
+    font-size: 15px;
+    font-family: Josefin Sans;
+    text-align: center;
+}
+
+
+p {
+    color: black;
+    height: 170px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16.5px;
+    font-family: Josefin Sans;
+}
+
+
+img {
+    width: 100%;
+    height: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    box-shadow: 3px 5px 8px 3px rgb(63, 55, 50);
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    animation: shake 0.5s;
+    box-shadow: 0 5px 8px 0 rgb(63, 55, 50);
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+.grid-item {
+    width: 22%;
+    height: 600px;
+    margin: 10px;
+    list-style: none;
+    border: 5px solid #001015;
+    border-radius: 7%;
+    box-shadow: 5px 5px 5px 5px wheat;
+    background: url(http://theveliger.org/wp-content/uploads/2018/01/business-card-backgrounds-business-card-backgrounds-lilbib-with-business-card-background-designs-hd.jpg);
+}
+
+
+#grid-floats {
+    width: 80%;
+    margin: auto;
+    display: block;
+    justify-content: space-between;
+}
+
+#grid-floats li {
+    float: left;
+}
+
+#grid-floats> :first-child {
+    width: 500px;
+}
+
+
+#grid-flex> :first-child {
+    width: 490px;
+}
+
+#grid-flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    
+}
+
+
+@media (min-width: 900px) {
+    p {
+        color: black;
+        height: 170px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 16.5px;
+        font-family: Josefin Sans;
+    }
+    
+    .grid-item {
+    width: 22%;
+    height: 600px;
+    margin: 10px;
+    list-style: none;
+    border: 5px solid #001015;
+    border-radius: 7%;
+    box-shadow: 5px 5px 5px 5px wheat;
+    background: url(http://theveliger.org/wp-content/uploads/2018/01/business-card-backgrounds-business-card-backgrounds-lilbib-with-business-card-background-designs-hd.jpg);
+    }
+    
+    
+    #grid-floats> :first-child {
+    width: 500px;
+    }
+    
+    #grid-flex> :first-child {
+    width: 490px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 769px) {
+    #grid-floats> :first-child {
+        width: 245px;
+    }
+
+    .grid-item:nth-of-type(2) {
+        width: 245px;
+    }
+
+    p {
+        color: black;
+        height: 170px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 13px;
+        font-family: Josefin Sans;
+    }
+    
+    .grid-item {
+        width: 25%;
+        height: 600px;
+        margin: 10px;
+        list-style: none;
+        border: 5px solid #001015;
+        border-radius: 7%;
+        box-shadow: 5px 5px 5px 5px wheat;
+        background: url(http://theveliger.org/wp-content/uploads/2018/01/business-card-backgrounds-business-card-backgrounds-lilbib-with-business-card-background-designs-hd.jpg);
+    }
+
+    #grid-flex> :first-child {
+        width: 245px;
+    }
+}   
+
+@media (max-width: 575px) {
+    #grid-floats> :first-child {
+        width: 245px;
+    }
+    p {
+        color: black;
+        height: 170px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 9px;
+        font-family: Josefin Sans;
+    }
+    .grid-item {
+        width: 30%;
+        height: 600px;
+        margin: 10px;
+        list-style: none;
+        border: 5px solid #001015;
+        border-radius: 7%;
+        box-shadow: 5px 5px 5px 5px wheat;
+        background: url(http://theveliger.org/wp-content/uploads/2018/01/business-card-backgrounds-business-card-backgrounds-lilbib-with-business-card-background-designs-hd.jpg);
+    }
+    #grid-flex> :first-child {
+        width: 245px;
+    }
+}
